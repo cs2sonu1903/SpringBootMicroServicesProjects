@@ -10,11 +10,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  application:
+    name: HOTEL-SERVICE
 
 eureka:
   instance:
     prefer-ip-address: true
-    appname: HOTEL-SERVICE
 
   client:
     fetch-registry: true
